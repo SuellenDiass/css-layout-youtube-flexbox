@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><!-- biblioteca de ícones  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles6.css">
+    <title>Clone layout youtube</title>
+</head>
+<body>
+    <!-- cabeçalho -->
+    <header>
+		<h1 class="logo">
+            <img src="img/Left.svg" alt="">
+        </h1>
+        <form>
+            <label for="search">Pesquisar:</label>
+            <input type="text" id="search" name="search" placeholder="Pesquisar">
+            <button type="submit">Buscar</button>
+          </form>
+
+		<!-- <input type="text" class="search" placeholder="Pesquisar"> -->
+		<nav class="icons">
+			<a href="#"><i class="fas fa-video"></i></a>
+			<a href="#"><i class="fas fa-bell"></i></a>
+			<a href="#"><i class="fas fa-user-circle"></i></a>
+		</nav>
+          
+	</header>
+    <!-- envolve todo o conteúdo, e você pode aplicar estilos de posicionamento para a section como um todo, se necessário. -->
+    <section class="container">
+        <!-- video principal -->
+        <main>
+            <!-- article conteudo independente -->
+            <article class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DRf7q6oOXLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+            </article>
+            <h2 class="title">DIO | Construindo Seu Novo Futuro!</h2>
+            <p class="description">Prepare-se para o mercado de tecnologia!</p>
+            
+            <div class="video-actions">
+                <div class="logo">
+                    <img src="img/Channel Infos.svg" alt="">
+                </div>
+                <div class="subscribe">
+                    <i class="fa fa-rss" style="color: blue;"></i> Inscrever-se
+                </div>
+                <div class="like">
+                    <i class="fa fa-thumbs-up" style="color: blue;"></i> Gostei
+                </div>
+                <div class="share">
+                    <i class="fa fa-share" style="color: blue;"></i> Compartilhar
+                </div>
+                <div class="download">
+                    <i class="fa fa-download" style="color: blue;"></i> Download
+                </div>
+            </div>
+            <div class="texto">
+                <p>Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, inscreva-se na Formação Front-end da dio.me.</p>
+        </main>
+        
+        <!-- videos da lateral -->
+        <aside>
+            
+            <div class="video-list">
+                <!-- Thumbnail do vídeo 1 -->
+                <div class="video-list-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/v7TPRAvPOpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <div class="decricao_video">
+                    <h3>Top Worship Songs of ALL TIME! - Instrumental Worship Guitar</h3> 
+                    <span>Josh Snodgrass</span> 
+                    <p>618 visualizações - Há 1 mês</p>
+                    </div>                   
+                </div>
+                <div class="video-list-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yq2V7XBm1ok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="decricao_video">
+                        <h3>CAMPANHA DO MEIO DIA - BUSQUE SEU MILAGRE - Romanos 4:17</h3>  
+                        <span>Izabel Ferreira</span>
+                        <p>21 mil visualizações - Há 8 horas</p>
+                    </div> 
+                    
+                </div>
+                <div class="video-list-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zGPS2BilrJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="decricao_video">
+                        <h3>TUDO o que um DESENVOLVEDOR FRONT-END deve saber! | Getting Started #23</h3> 
+                        <span>DIO</span> 
+                        <p>4 mil visualizações - Há 1 mês</p>
+                    </div>
+                   
+                </div>
+                <div class="video-list-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PSJXhXYcZC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    
+                    <div class="decricao_video">
+                        <h3>Criando um Sistema de Interpretação de Gestos com Python e Machine Learning</h3> 
+                        <span>DIO</span> 
+                        <p> 276 visualizações - Há 1 mês</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+    </section>  
+</body>
+</html>
