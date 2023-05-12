@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img width="700" src="(https://github.com/SuellenDiass/html-wikipedia-layout-moderno/assets/102911341/1ac127b3-34ec-4645-b104-1aad7b68f14e ">
+    <img width="700" src="(https://github.com/SuellenDiass/html-wikipedia-layout-moderno/assets/102911341/1ac127b3-34ec-4645-b104-1aad7b68f14e) ">
 </p>
 
 <p align="center">Seja redirecionado à página do 
