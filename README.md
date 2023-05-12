@@ -10,7 +10,7 @@
 </p>
 
 
-<p> <h1 align="center">Recriando a Interface do Netflix</h1></p>
+<p> <h1 align="center">Recriando o layout do youtube</h1></p>
 
 ## Descrição do projeto 
 
